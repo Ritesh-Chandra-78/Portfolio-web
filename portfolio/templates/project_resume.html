@@ -1,0 +1,47 @@
+{% load static %}
+<!-- ===== Projects Section ===== -->
+<section id="projects" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">My Projects</h2>
+    <div class="row g-4">
+      
+      {% for project in projects %}
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0 rounded-3">
+          <img src="{{ project.image.url }}" class="card-img-top rounded-top" alt="{{ project.title }}">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">{{ project.title }}</h5>
+            <p class="card-text text-muted">{{ project.description }}</p>
+
+            {% if project.github_link %}
+              <a href="{{ project.github_link }}" class="btn btn-primary mt-auto" target="_blank">View Project</a>
+            {% elif project.live_link %}
+              <a href="{{ project.live_link }}" class="btn btn-primary mt-auto" target="_blank">Live Demo</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ===== Resume Section ===== -->
+<section id="resume" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="mb-4">Resume</h2>
+    <p class="mb-4">You can view or download my resume below:</p>
+    
+    {% if resume %}
+    <a href="{{ resume.file.url }}" target="_blank" class="btn btn-primary px-4 py-2">
+      View Resume
+    </a>
+    {% else %}
+    <p>No resume uploaded yet.</p>
+    {% endif %}
+  </div>
+</section>
+

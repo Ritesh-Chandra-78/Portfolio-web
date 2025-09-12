@@ -1,0 +1,67 @@
+{% load static %}
+<!-- ===== Skills Section ===== -->
+
+<section id="skills" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">My Skills</h2>
+    <div class="row">
+      {% for skill in skills %}
+      <div class="col-md-6 mb-4 d-flex align-items-center">
+        <img src="{{ skill.icon_url }}" alt="{{ skill.name }}" width="40" class="me-3">
+        <div class="w-100">
+          <h6>{{ skill.name }}</h6>
+          <div class="progress rounded-3 shadow-sm">
+            <div class="progress-bar {{ skill.color_class }} skill-bar" 
+                 data-skill="{{ skill.level }}">
+              0%
+            </div>
+          </div>
+        </div>
+      </div>
+      {% empty %}
+      <p class="text-center text-muted">No skills added yet.</p>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- ===== Tools & Technologies Section ===== -->
+<section id="tools" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Tools & Technologies</h2>
+    <div class="row text-center">
+      {% for tool in tools %}
+        <div class="col-6 col-md-3 mb-4 tool" data-delay="{{ tool.delay }}">
+          <img src="{{ tool.icon_url }}" alt="{{ tool.name }}" width="60">
+          <h6>{{ tool.name }}</h6>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+
+<!-- Education Section -->
+<section id="education" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold">Education</h2>
+
+    <div class="row g-4">
+      {% for edu in education_list %}
+      <div class="col-md-4">
+        <div class="edu-card shadow-sm">
+          <div class="edu-icon">
+            {{ edu.icon }}
+          </div>
+          <h4>{{ edu.title }}</h4>
+          <span class="year">{{ edu.year }}</span>
+          <p>{{ edu.institute }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

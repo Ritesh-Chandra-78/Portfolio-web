@@ -1,0 +1,80 @@
+{% load static %}
+
+<!-- NAV -->
+<nav id="navbar" class="navbar navbar-expand-lg fixed-top bg-body py-2 shadow-sm">
+  <div class="container">
+    <a class="navbar-brand" href="#home">&lt;{{ profile.accent_name }} /&gt;</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-2">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="{% url 'login' %}">Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header id="home" class="hero-section d-flex align-items-center">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 order-2 order-lg-1">
+        <h1 class="display-5 fw-bold fade-in">
+          Hi, I'm <span style="color:var(--accent)">{{ profile.full_name }}</span> 👋
+        </h1>
+        <p class="lead text-muted fade-in delay-1">
+          {{ profile.headline }}
+        </p>
+        <div class="mt-3 fade-in delay-2">
+          <a href="#projects" class="btn btn-primary me-2">
+            <i class="bi bi-rocket-takeoff"></i> Projects
+          </a>
+          {% if profile.resume %}
+          <a href="{{ profile.resume.url }}" class="btn btn-outline-primary" download>
+            <i class="bi bi-file-earmark-arrow-down"></i> Resume
+          </a>
+          {% endif %}
+        </div>
+        <div class="mt-3 fade-in delay-3">
+          {% for s in profile.socials.all %}
+            <a href="{{ s.url }}" class="me-3 fs-4 text-decoration-none" aria-label="{{ s.platform|lower }}">
+              <i class="{{ s.icon_class }}"></i>
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="col-lg-6 text-center order-1 order-lg-2 position-relative">
+        {% if profile.hero_image %}
+          <img src="{{ profile.hero_image.url }}" alt="profile" class="hero-img pulse shadow-sm">
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- About -->
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-5 text-center mb-4 mb-md-0 about-img-container fade-left">
+        {% if profile.about_image %}
+          <img src="{{ profile.about_image.url }}" alt="About Me" class="about-img shadow-sm">
+        {% endif %}
+      </div>
+      <div class="col-md-7 fade-right">
+        <h2>About Me</h2>
+        <p>{{ profile.about_text_1 }}</p>
+        <p>{{ profile.about_text_2 }}</p>
+      </div>
+    </div>
+  </div>
+</section>

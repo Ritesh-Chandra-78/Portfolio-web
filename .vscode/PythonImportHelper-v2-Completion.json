@@ -1,0 +1,1412 @@
+[
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractBaseUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "BaseUserManager",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordResetTokenGenerator",
+        "importPath": "django.contrib.auth.tokens",
+        "description": "django.contrib.auth.tokens",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.tokens",
+        "documentation": {}
+    },
+    {
+        "label": "six",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "six",
+        "description": "six",
+        "detail": "six",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "TemplateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "Skill",
+        "importPath": "educations.models",
+        "description": "educations.models",
+        "isExtraImport": true,
+        "detail": "educations.models",
+        "documentation": {}
+    },
+    {
+        "label": "Tool",
+        "importPath": "educations.models",
+        "description": "educations.models",
+        "isExtraImport": true,
+        "detail": "educations.models",
+        "documentation": {}
+    },
+    {
+        "label": "Education",
+        "importPath": "educations.models",
+        "description": "educations.models",
+        "isExtraImport": true,
+        "detail": "educations.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "projects.models",
+        "description": "projects.models",
+        "isExtraImport": true,
+        "detail": "projects.models",
+        "documentation": {}
+    },
+    {
+        "label": "Resume",
+        "importPath": "projects.models",
+        "description": "projects.models",
+        "isExtraImport": true,
+        "detail": "projects.models",
+        "documentation": {}
+    },
+    {
+        "label": "ContactInfo",
+        "importPath": "contact.models",
+        "description": "contact.models",
+        "isExtraImport": true,
+        "detail": "contact.models",
+        "documentation": {}
+    },
+    {
+        "label": "ContactForm",
+        "importPath": "contact.forms",
+        "description": "contact.forms",
+        "isExtraImport": true,
+        "detail": "contact.forms",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "render_to_string",
+        "importPath": "django.template.loader",
+        "description": "django.template.loader",
+        "isExtraImport": true,
+        "detail": "django.template.loader",
+        "documentation": {}
+    },
+    {
+        "label": "urlsafe_base64_encode",
+        "importPath": "django.utils.http",
+        "description": "django.utils.http",
+        "isExtraImport": true,
+        "detail": "django.utils.http",
+        "documentation": {}
+    },
+    {
+        "label": "urlsafe_base64_decode",
+        "importPath": "django.utils.http",
+        "description": "django.utils.http",
+        "isExtraImport": true,
+        "detail": "django.utils.http",
+        "documentation": {}
+    },
+    {
+        "label": "force_bytes",
+        "importPath": "django.utils.encoding",
+        "description": "django.utils.encoding",
+        "isExtraImport": true,
+        "detail": "django.utils.encoding",
+        "documentation": {}
+    },
+    {
+        "label": "force_str",
+        "importPath": "django.utils.encoding",
+        "description": "django.utils.encoding",
+        "isExtraImport": true,
+        "detail": "django.utils.encoding",
+        "documentation": {}
+    },
+    {
+        "label": "EmailMessage",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "openai",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "openai",
+        "description": "openai",
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "portfolio.accounts.migrations.0001_initial",
+        "description": "portfolio.accounts.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Account',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('password', models.CharField(max_length=128, verbose_name='password')),",
+        "detail": "portfolio.accounts.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "AccountsConfig",
+        "kind": 6,
+        "importPath": "portfolio.accounts.apps",
+        "description": "portfolio.accounts.apps",
+        "peekOfCode": "class AccountsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'accounts'",
+        "detail": "portfolio.accounts.apps",
+        "documentation": {}
+    },
+    {
+        "label": "MyAccountManager",
+        "kind": 6,
+        "importPath": "portfolio.accounts.models",
+        "description": "portfolio.accounts.models",
+        "peekOfCode": "class MyAccountManager(BaseUserManager):\n    def create_user(self, first_name, last_name, username, email, password=None):\n        if not email:\n            raise ValueError('User must have an email address')\n        if not username:\n            raise ValueError('User must have a username') \n        user = self.model(\n            email=self.normalize_email(email),\n            username=username,\n            first_name=first_name,",
+        "detail": "portfolio.accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "kind": 6,
+        "importPath": "portfolio.accounts.models",
+        "description": "portfolio.accounts.models",
+        "peekOfCode": "class Account(AbstractBaseUser):\n    first_name = models.CharField(max_length=200)\n    last_name = models.CharField(max_length=200)\n    username = models.CharField(max_length=100, unique=True)\n    email = models.EmailField(max_length=200, unique=True)\n    phone_number = models.CharField(max_length=50)\n    date_joined = models.DateTimeField(auto_now_add=True)\n    last_login = models.DateTimeField(auto_now=True)\n    is_admin = models.BooleanField(default=False)\n    is_staff = models.BooleanField(default=False)",
+        "detail": "portfolio.accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "portfolio.contact.migrations.0001_initial",
+        "description": "portfolio.contact.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='ContactInfo',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('location', models.CharField(default='India (Noida)', max_length=200)),",
+        "detail": "portfolio.contact.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "ContactConfig",
+        "kind": 6,
+        "importPath": "portfolio.contact.apps",
+        "description": "portfolio.contact.apps",
+        "peekOfCode": "class ContactConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'contact'",
+        "detail": "portfolio.contact.apps",
+        "documentation": {}
+    },
+    {
+        "label": "ContactForm",
+        "kind": 6,
+        "importPath": "portfolio.contact.forms",
+        "description": "portfolio.contact.forms",
+        "peekOfCode": "class ContactForm(forms.ModelForm):\n    class Meta:\n        model = ContactMessage\n        fields = ['name', 'email', 'message']\n        widgets = {\n            'name': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Enter your name'}),\n            'email': forms.EmailInput(attrs={'class': 'form-control', 'placeholder': 'Enter your email'}),\n            'message': forms.Textarea(attrs={'class': 'form-control', 'rows': 5, 'placeholder': 'Write your message'}),\n        }\nfrom django.contrib.auth.models import User",
+        "detail": "portfolio.contact.forms",
+        "documentation": {}
+    },
+    {
+        "label": "SignUpForm",
+        "kind": 6,
+        "importPath": "portfolio.contact.forms",
+        "description": "portfolio.contact.forms",
+        "peekOfCode": "class SignUpForm(UserCreationForm):\n    email = forms.EmailField(required=True)\n    class Meta:\n        model = User\n        fields = ('username', 'email', 'password1', 'password2')",
+        "detail": "portfolio.contact.forms",
+        "documentation": {}
+    },
+    {
+        "label": "ContactInfo",
+        "kind": 6,
+        "importPath": "portfolio.contact.models",
+        "description": "portfolio.contact.models",
+        "peekOfCode": "class ContactInfo(models.Model):\n    location = models.CharField(max_length=200, default=\"India (Noida)\")\n    email = models.EmailField(default=\"example@gmail.com\")\n    phone = models.CharField(max_length=20, default=\"+91-00000-00000\")\n    def __str__(self):\n        return self.email\n# Store messages submitted from the contact form\nclass ContactMessage(models.Model):\n    name = models.CharField(max_length=100)\n    email = models.EmailField()",
+        "detail": "portfolio.contact.models",
+        "documentation": {}
+    },
+    {
+        "label": "ContactMessage",
+        "kind": 6,
+        "importPath": "portfolio.contact.models",
+        "description": "portfolio.contact.models",
+        "peekOfCode": "class ContactMessage(models.Model):\n    name = models.CharField(max_length=100)\n    email = models.EmailField()\n    message = models.TextField()\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return f\"Message from {self.name} ({self.email})\"",
+        "detail": "portfolio.contact.models",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "portfolio.educations.migrations.0001_initial",
+        "description": "portfolio.educations.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Education',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('title', models.CharField(max_length=100)),",
+        "detail": "portfolio.educations.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "portfolio.educations.migrations.0002_alter_skill_color_class",
+        "description": "portfolio.educations.migrations.0002_alter_skill_color_class",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('educations', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='skill',\n            name='color_class',\n            field=models.CharField(default='bg-success', max_length=50),\n        ),",
+        "detail": "portfolio.educations.migrations.0002_alter_skill_color_class",
+        "documentation": {}
+    },
+    {
+        "label": "EducationsConfig",
+        "kind": 6,
+        "importPath": "portfolio.educations.apps",
+        "description": "portfolio.educations.apps",
+        "peekOfCode": "class EducationsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'educations'",
+        "detail": "portfolio.educations.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Skill",
+        "kind": 6,
+        "importPath": "portfolio.educations.models",
+        "description": "portfolio.educations.models",
+        "peekOfCode": "class Skill(models.Model):\n    name = models.CharField(max_length=50)\n    icon_url = models.URLField()\n    level = models.IntegerField()  # e.g., 85 for 85%\n    color_class = models.CharField(max_length=50, default=\"bg-success\")  # Bootstrap color\n    def __str__(self):\n        return self.name\n# Tools\nclass Tool(models.Model):\n    name = models.CharField(max_length=50)",
+        "detail": "portfolio.educations.models",
+        "documentation": {}
+    },
+    {
+        "label": "Tool",
+        "kind": 6,
+        "importPath": "portfolio.educations.models",
+        "description": "portfolio.educations.models",
+        "peekOfCode": "class Tool(models.Model):\n    name = models.CharField(max_length=50)\n    icon_url = models.URLField()\n    delay = models.FloatField(default=0)  # animation delay in seconds\n    def __str__(self):\n        return self.name\n# Education\nclass Education(models.Model):\n    title = models.CharField(max_length=100)\n    year = models.CharField(max_length=20)",
+        "detail": "portfolio.educations.models",
+        "documentation": {}
+    },
+    {
+        "label": "Education",
+        "kind": 6,
+        "importPath": "portfolio.educations.models",
+        "description": "portfolio.educations.models",
+        "peekOfCode": "class Education(models.Model):\n    title = models.CharField(max_length=100)\n    year = models.CharField(max_length=20)\n    institute = models.CharField(max_length=100)\n    icon = models.CharField(max_length=5)  # Emoji icon\n    def __str__(self):\n        return self.title",
+        "detail": "portfolio.educations.models",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "portfolio.home.migrations.0001_initial",
+        "description": "portfolio.home.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Profile',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('full_name', models.CharField(default='Ritesh Chandra', max_length=100)),",
+        "detail": "portfolio.home.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "portfolio.home.migrations.0002_contactmessage",
+        "description": "portfolio.home.migrations.0002_contactmessage",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('home', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='ContactMessage',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=100)),",
+        "detail": "portfolio.home.migrations.0002_contactmessage",
+        "documentation": {}
+    },
+    {
+        "label": "HomeConfig",
+        "kind": 6,
+        "importPath": "portfolio.home.apps",
+        "description": "portfolio.home.apps",
+        "peekOfCode": "class HomeConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'home'",
+        "detail": "portfolio.home.apps",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterForm",
+        "kind": 6,
+        "importPath": "portfolio.home.forms",
+        "description": "portfolio.home.forms",
+        "peekOfCode": "class RegisterForm(UserCreationForm):\n    email = forms.EmailField(required=True, widget=forms.EmailInput(attrs={\n        'placeholder': 'Enter your email'\n    }))\n    class Meta:\n        model = User\n        fields = ['username', 'email', 'password1', 'password2']\n    def clean_email(self):\n        email = self.cleaned_data.get('email')\n        if User.objects.filter(email=email).exists():",
+        "detail": "portfolio.home.forms",
+        "documentation": {}
+    },
+    {
+        "label": "LoginForm",
+        "kind": 6,
+        "importPath": "portfolio.home.forms",
+        "description": "portfolio.home.forms",
+        "peekOfCode": "class LoginForm(AuthenticationForm):\n    username = forms.CharField(widget=forms.TextInput(attrs={\n        'placeholder': 'Enter your username'\n    }))\n    password = forms.CharField(widget=forms.PasswordInput(attrs={\n        'placeholder': 'Enter your password'\n    }))\n# for contact form\nfrom django import forms\nfrom .models import ContactMessage",
+        "detail": "portfolio.home.forms",
+        "documentation": {}
+    },
+    {
+        "label": "ContactForm",
+        "kind": 6,
+        "importPath": "portfolio.home.forms",
+        "description": "portfolio.home.forms",
+        "peekOfCode": "class ContactForm(forms.ModelForm):\n    class Meta:\n        model = ContactMessage\n        fields = ['name', 'email', 'message']\n        widgets = {\n            'name': forms.TextInput(attrs={'class': 'form-control', 'id': 'id_name', 'placeholder': 'Your name'}),\n            'email': forms.EmailInput(attrs={'class': 'form-control', 'id': 'id_email', 'placeholder': 'Your email'}),\n            'message': forms.Textarea(attrs={'class': 'form-control', 'id': 'id_message', 'placeholder': 'Your message', 'rows': 5}),\n        }",
+        "detail": "portfolio.home.forms",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "portfolio.home.forms",
+        "description": "portfolio.home.forms",
+        "peekOfCode": "User = get_user_model()\n# ✅ Register Form\nclass RegisterForm(UserCreationForm):\n    email = forms.EmailField(required=True, widget=forms.EmailInput(attrs={\n        'placeholder': 'Enter your email'\n    }))\n    class Meta:\n        model = User\n        fields = ['username', 'email', 'password1', 'password2']\n    def clean_email(self):",
+        "detail": "portfolio.home.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Profile",
+        "kind": 6,
+        "importPath": "portfolio.home.models",
+        "description": "portfolio.home.models",
+        "peekOfCode": "class Profile(models.Model):\n    full_name     = models.CharField(max_length=100, default='Ritesh Chandra')\n    headline      = models.CharField(max_length=200, default='Full-stack developer — Django, Python, responsive UI, and clean UX.')\n    hero_greeting = models.CharField(max_length=60, default=\"Hi, I'm\")\n    accent_name   = models.CharField(max_length=50, default='Ritesh')\n    hero_image    = models.ImageField(upload_to='profile/', blank=True, null=True)\n    about_image   = models.ImageField(upload_to='profile/', blank=True, null=True)\n    about_text_1  = models.TextField(blank=True)\n    about_text_2  = models.TextField(blank=True)\n    resume        = models.FileField(upload_to='resume/', blank=True, null=True)",
+        "detail": "portfolio.home.models",
+        "documentation": {}
+    },
+    {
+        "label": "SocialLink",
+        "kind": 6,
+        "importPath": "portfolio.home.models",
+        "description": "portfolio.home.models",
+        "peekOfCode": "class SocialLink(models.Model):\n    profile   = models.ForeignKey(Profile, on_delete=models.CASCADE, related_name='socials')\n    platform  = models.CharField(max_length=30)  # e.g. GitHub, LinkedIn, X\n    url       = models.URLField()\n    icon_class= models.CharField(max_length=50, help_text='Bootstrap icon class, e.g. \"bi bi-github\"')\n    def __str__(self):\n        return f'{self.platform}'\n# home/models.py\nfrom django.db import models\nclass ContactMessage(models.Model):",
+        "detail": "portfolio.home.models",
+        "documentation": {}
+    },
+    {
+        "label": "ContactMessage",
+        "kind": 6,
+        "importPath": "portfolio.home.models",
+        "description": "portfolio.home.models",
+        "peekOfCode": "class ContactMessage(models.Model):\n    name = models.CharField(max_length=100)\n    email = models.EmailField()\n    message = models.TextField()\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return f\"{self.name} - {self.email}\"",
+        "detail": "portfolio.home.models",
+        "documentation": {}
+    },
+    {
+        "label": "AccountActivationTokenGenerator",
+        "kind": 6,
+        "importPath": "portfolio.home.tokens",
+        "description": "portfolio.home.tokens",
+        "peekOfCode": "class AccountActivationTokenGenerator(PasswordResetTokenGenerator):\n    def _make_hash_value(self, user, timestamp):\n        return six.text_type(user.pk) + six.text_type(timestamp) + six.text_type(user.is_active)\naccount_activation_token = AccountActivationTokenGenerator()",
+        "detail": "portfolio.home.tokens",
+        "documentation": {}
+    },
+    {
+        "label": "account_activation_token",
+        "kind": 5,
+        "importPath": "portfolio.home.tokens",
+        "description": "portfolio.home.tokens",
+        "peekOfCode": "account_activation_token = AccountActivationTokenGenerator()",
+        "detail": "portfolio.home.tokens",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "portfolio.home.urls",
+        "description": "portfolio.home.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", HomeView.as_view(), name=\"home\"),\n    path('register/', views.register_view, name='register'),\n    path('login/', views.login_view, name='login'),\n    path('logout/', views.logout_view, name='logout'),\n    path('chatbot-reply/', views.chatbot_reply, name='chatbot-reply'),\n         # Activation link\n    path('activate/<uidb64>/<token>/', views.activate_view, name='activate'),\n]",
+        "detail": "portfolio.home.urls",
+        "documentation": {}
+    },
+    {
+        "label": "HomeView",
+        "kind": 6,
+        "importPath": "portfolio.home.views",
+        "description": "portfolio.home.views",
+        "peekOfCode": "class HomeView(TemplateView):\n    template_name = \"home.html\"\n    def get_context_data(self, **kwargs):\n        ctx = super().get_context_data(**kwargs)\n        ctx[\"profile\"] = Profile.objects.prefetch_related(\"socials\").first()\n        ctx[\"skills\"] = Skill.objects.all()\n        ctx[\"tools\"] = Tool.objects.all()\n        ctx[\"education_list\"] = Education.objects.all()\n        ctx[\"projects\"] = Project.objects.all()\n        ctx[\"resume\"] = Resume.objects.last()  ",
+        "detail": "portfolio.home.views",
+        "documentation": {}
+    },
+    {
+        "label": "register_view",
+        "kind": 2,
+        "importPath": "portfolio.home.views",
+        "description": "portfolio.home.views",
+        "peekOfCode": "def register_view(request):\n    if request.method == 'POST':\n        form = RegisterForm(request.POST)\n        if form.is_valid():\n            user = form.save(commit=False)\n            password = form.cleaned_data.get('password')\n            user.set_password(password)\n            user.is_active = False  # deactivate until email verification\n            user.save()\n            # Send activation email",
+        "detail": "portfolio.home.views",
+        "documentation": {}
+    },
+    {
+        "label": "activate_view",
+        "kind": 2,
+        "importPath": "portfolio.home.views",
+        "description": "portfolio.home.views",
+        "peekOfCode": "def activate_view(request, uidb64, token):\n    try:\n        uid = force_str(urlsafe_base64_decode(uidb64))\n        user = User.objects.get(pk=uid)\n    except Exception:\n        user = None\n    if user and account_activation_token.check_token(user, token):\n        if not user.is_active:\n            user.is_active = True\n            user.is_staff = True  # give staff access automatically",
+        "detail": "portfolio.home.views",
+        "documentation": {}
+    },
+    {
+        "label": "login_view",
+        "kind": 2,
+        "importPath": "portfolio.home.views",
+        "description": "portfolio.home.views",
+        "peekOfCode": "def login_view(request):\n    if request.method == 'POST':\n        form = LoginForm(data=request.POST)\n        if form.is_valid():\n            user = form.get_user()\n            login(request, user)\n            return redirect('home')\n        else:\n            messages.error(request, \"Invalid username or password\")\n    else:",
+        "detail": "portfolio.home.views",
+        "documentation": {}
+    },
+    {
+        "label": "logout_view",
+        "kind": 2,
+        "importPath": "portfolio.home.views",
+        "description": "portfolio.home.views",
+        "peekOfCode": "def logout_view(request):\n    logout(request)\n    messages.success(request, \"Logged out successfully!\")\n    return redirect('login')\n# views.py\nimport openai\nfrom django.conf import settings\nfrom django.http import JsonResponse\nimport json\n# Set OpenAI API key",
+        "detail": "portfolio.home.views",
+        "documentation": {}
+    },
+    {
+        "label": "chatbot_reply",
+        "kind": 2,
+        "importPath": "portfolio.home.views",
+        "description": "portfolio.home.views",
+        "peekOfCode": "def chatbot_reply(request):\n    if request.method == \"POST\":\n        data = json.loads(request.body)\n        msg = data.get(\"message\", \"\")\n        try:\n            response = openai.chat.completions.create(\n                model=\"gpt-3.5-turbo\",\n                messages=[\n                    {\"role\": \"system\", \"content\": \"You are a helpful chatbot.\"},\n                    {\"role\": \"user\", \"content\": msg}",
+        "detail": "portfolio.home.views",
+        "documentation": {}
+    },
+    {
+        "label": "openai.api_key",
+        "kind": 5,
+        "importPath": "portfolio.home.views",
+        "description": "portfolio.home.views",
+        "peekOfCode": "openai.api_key = settings.OPENAI_API_KEY\ndef chatbot_reply(request):\n    if request.method == \"POST\":\n        data = json.loads(request.body)\n        msg = data.get(\"message\", \"\")\n        try:\n            response = openai.chat.completions.create(\n                model=\"gpt-3.5-turbo\",\n                messages=[\n                    {\"role\": \"system\", \"content\": \"You are a helpful chatbot.\"},",
+        "detail": "portfolio.home.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.asgi",
+        "description": "portfolio.portfolio.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "portfolio.portfolio.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-vztyzzxvxw1dkcy5e+eq7!8ja2x)@@(q&#lovn@r-m#bqqsfsw'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n# Allowed hosts\nALLOWED_HOSTS = [\n    \"127.0.0.1\",",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-vztyzzxvxw1dkcy5e+eq7!8ja2x)@@(q&#lovn@r-m#bqqsfsw'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n# Allowed hosts\nALLOWED_HOSTS = [\n    \"127.0.0.1\",\n    \"localhost\",\n    \"192.168.0.106\",  # your PC LAN IP\n]\n# Domain for activation link",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "DEBUG = True\n# Allowed hosts\nALLOWED_HOSTS = [\n    \"127.0.0.1\",\n    \"localhost\",\n    \"192.168.0.106\",  # your PC LAN IP\n]\n# Domain for activation link\nDOMAIN = \"192.168.0.106:8000\"\n# Application definition",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "ALLOWED_HOSTS = [\n    \"127.0.0.1\",\n    \"localhost\",\n    \"192.168.0.106\",  # your PC LAN IP\n]\n# Domain for activation link\nDOMAIN = \"192.168.0.106:8000\"\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DOMAIN",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "DOMAIN = \"192.168.0.106:8000\"\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'home',",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'home',\n    'projects',\n    'contact',",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SITE_ID",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "SITE_ID = 1\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'portfolio.urls'",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "ROOT_URLCONF = 'portfolio.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': ['templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': ['templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',\n                'django.contrib.messages.context_processors.messages',",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'portfolio.wsgi.application'\nAUTH_USER_MODEL = 'accounts.Account'\n# Database\n# https://docs.djangoproject.com/en/5.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "AUTH_USER_MODEL = 'accounts.Account'\n# Database\n# https://docs.djangoproject.com/en/5.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nimport os\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]\nSTATIC_ROOT = BASE_DIR / 'staticfiles' ",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nimport os\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]\nSTATIC_ROOT = BASE_DIR / 'staticfiles' \nMEDIA_URL = '/media/'",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nimport os\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]\nSTATIC_ROOT = BASE_DIR / 'staticfiles' \nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nimport os\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]\nSTATIC_ROOT = BASE_DIR / 'staticfiles' \nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# messging for",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]\nSTATIC_ROOT = BASE_DIR / 'staticfiles' \nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# messging for\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]\nSTATIC_ROOT = BASE_DIR / 'staticfiles' \nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# messging for\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'developerritesh84@gmail.com'",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "STATIC_ROOT = BASE_DIR / 'staticfiles' \nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# messging for\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'developerritesh84@gmail.com'\nEMAIL_HOST_PASSWORD = 'wpgp bhez qyok sjnn'  # Not your Gmail login password",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# messging for\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'developerritesh84@gmail.com'\nEMAIL_HOST_PASSWORD = 'wpgp bhez qyok sjnn'  # Not your Gmail login password\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "MEDIA_ROOT = BASE_DIR / 'media'\n# messging for\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'developerritesh84@gmail.com'\nEMAIL_HOST_PASSWORD = 'wpgp bhez qyok sjnn'  # Not your Gmail login password\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Default primary key field type",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'developerritesh84@gmail.com'\nEMAIL_HOST_PASSWORD = 'wpgp bhez qyok sjnn'  # Not your Gmail login password\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "EMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'developerritesh84@gmail.com'\nEMAIL_HOST_PASSWORD = 'wpgp bhez qyok sjnn'  # Not your Gmail login password\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PORT",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'developerritesh84@gmail.com'\nEMAIL_HOST_PASSWORD = 'wpgp bhez qyok sjnn'  # Not your Gmail login password\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom dotenv import load_dotenv",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_TLS",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "EMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'developerritesh84@gmail.com'\nEMAIL_HOST_PASSWORD = 'wpgp bhez qyok sjnn'  # Not your Gmail login password\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom dotenv import load_dotenv\n# Load your custom env file",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_USER",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "EMAIL_HOST_USER = 'developerritesh84@gmail.com'\nEMAIL_HOST_PASSWORD = 'wpgp bhez qyok sjnn'  # Not your Gmail login password\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom dotenv import load_dotenv\n# Load your custom env file\nload_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), \"../chat.env\"))",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_PASSWORD",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = 'wpgp bhez qyok sjnn'  # Not your Gmail login password\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom dotenv import load_dotenv\n# Load your custom env file\nload_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), \"../chat.env\"))\n# Access the API key",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_FROM_EMAIL",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "DEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom dotenv import load_dotenv\n# Load your custom env file\nload_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), \"../chat.env\"))\n# Access the API key\nOPENAI_API_KEY = os.getenv(\"OPENAI_API_KEY\")",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom dotenv import load_dotenv\n# Load your custom env file\nload_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), \"../chat.env\"))\n# Access the API key\nOPENAI_API_KEY = os.getenv(\"OPENAI_API_KEY\")\n# Optional: check it\nprint(\"OpenAI Key loaded:\", OPENAI_API_KEY)",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "OPENAI_API_KEY",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "OPENAI_API_KEY = os.getenv(\"OPENAI_API_KEY\")\n# Optional: check it\nprint(\"OpenAI Key loaded:\", OPENAI_API_KEY)",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.urls",
+        "description": "portfolio.portfolio.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('',include('home.urls')),\n] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "portfolio.portfolio.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.wsgi",
+        "description": "portfolio.portfolio.wsgi",
+        "peekOfCode": "application = get_wsgi_application()\nfrom dotenv import load_dotenv\nload_dotenv()",
+        "detail": "portfolio.portfolio.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "portfolio.projects.migrations.0001_initial",
+        "description": "portfolio.projects.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Project',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('title', models.CharField(max_length=200)),",
+        "detail": "portfolio.projects.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectsConfig",
+        "kind": 6,
+        "importPath": "portfolio.projects.apps",
+        "description": "portfolio.projects.apps",
+        "peekOfCode": "class ProjectsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'projects'",
+        "detail": "portfolio.projects.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "kind": 6,
+        "importPath": "portfolio.projects.models",
+        "description": "portfolio.projects.models",
+        "peekOfCode": "class Project(models.Model):\n    title = models.CharField(max_length=200)\n    description = models.TextField()\n    image = models.ImageField(upload_to=\"projects/\")  # Upload project images\n    github_link = models.URLField(blank=True, null=True)\n    live_link = models.URLField(blank=True, null=True)\n    def __str__(self):\n        return self.title\n# Resume\nclass Resume(models.Model):",
+        "detail": "portfolio.projects.models",
+        "documentation": {}
+    },
+    {
+        "label": "Resume",
+        "kind": 6,
+        "importPath": "portfolio.projects.models",
+        "description": "portfolio.projects.models",
+        "peekOfCode": "class Resume(models.Model):\n    file = models.FileField(upload_to=\"resume/\")  # Upload resume PDF\n    uploaded_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return f\"Resume uploaded on {self.uploaded_at}\"",
+        "detail": "portfolio.projects.models",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "portfolio.manage",
+        "description": "portfolio.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'portfolio.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "portfolio.manage",
+        "documentation": {}
+    }
+]
