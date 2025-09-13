@@ -162,6 +162,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 import os
 from dotenv import load_dotenv
+from django.core.wsgi import get_wsgi_application
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'portfolio.settings')
+application = get_wsgi_application()
 
 # Load your custom env file
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), "../chat.env"))
