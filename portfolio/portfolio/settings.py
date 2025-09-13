@@ -24,13 +24,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-vztyzzxvxw1dkcy5e+eq7!8ja2x)@@(q&#lovn@r-m#bqqsfsw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 # Allowed hosts
 ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost",
-    "192.168.0.106",  # your PC LAN IP
+    "192.168.0.106", # your PC LAN IP
+    "united-valeria-hackerrole2-37ed1cea.koyeb.app"
+    "https://united-valeria-hackerrole2-37ed1cea.koyeb.app"
 ]
 
 # Domain for activation link
