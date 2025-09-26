@@ -31,8 +31,7 @@ ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost",
     "192.168.0.106", # your PC LAN IP
-    "united-valeria-hackerrole2-37ed1cea.koyeb.app"
-    "https://united-valeria-hackerrole2-37ed1cea.koyeb.app"
+    "https://ritesh-chandra-portfolio.onrender.com/"
 ]
 
 # Domain for activation link
