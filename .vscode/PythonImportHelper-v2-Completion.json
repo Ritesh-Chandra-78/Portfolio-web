@@ -701,11 +701,11 @@
         "documentation": {}
     },
     {
-        "label": "static",
-        "importPath": "django.conf.urls.static",
-        "description": "django.conf.urls.static",
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
         "isExtraImport": true,
-        "detail": "django.conf.urls.static",
+        "detail": "django.core.wsgi",
         "documentation": {}
     },
     {
@@ -714,6 +714,14 @@
         "description": "django.core.wsgi",
         "isExtraImport": true,
         "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
         "documentation": {}
     },
     {
@@ -1063,7 +1071,7 @@
         "kind": 5,
         "importPath": "portfolio.portfolio.settings",
         "description": "portfolio.portfolio.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-vztyzzxvxw1dkcy5e+eq7!8ja2x)@@(q&#lovn@r-m#bqqsfsw'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n# Allowed hosts\nALLOWED_HOSTS = [\n    \"127.0.0.1\",",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-vztyzzxvxw1dkcy5e+eq7!8ja2x)@@(q&#lovn@r-m#bqqsfsw'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\n# Allowed hosts\nALLOWED_HOSTS = [\n    \"127.0.0.1\",",
         "detail": "portfolio.portfolio.settings",
         "documentation": {}
     },
@@ -1072,7 +1080,7 @@
         "kind": 5,
         "importPath": "portfolio.portfolio.settings",
         "description": "portfolio.portfolio.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-vztyzzxvxw1dkcy5e+eq7!8ja2x)@@(q&#lovn@r-m#bqqsfsw'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n# Allowed hosts\nALLOWED_HOSTS = [\n    \"127.0.0.1\",\n    \"localhost\",\n    \"192.168.0.106\",  # your PC LAN IP\n]\n# Domain for activation link",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-vztyzzxvxw1dkcy5e+eq7!8ja2x)@@(q&#lovn@r-m#bqqsfsw'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\n# Allowed hosts\nALLOWED_HOSTS = [\n    \"127.0.0.1\",\n    \"localhost\",\n    \"192.168.0.106\", # your PC LAN IP\n    \"united-valeria-hackerrole2-37ed1cea.koyeb.app\"\n    \"https://united-valeria-hackerrole2-37ed1cea.koyeb.app\"",
         "detail": "portfolio.portfolio.settings",
         "documentation": {}
     },
@@ -1081,7 +1089,7 @@
         "kind": 5,
         "importPath": "portfolio.portfolio.settings",
         "description": "portfolio.portfolio.settings",
-        "peekOfCode": "DEBUG = True\n# Allowed hosts\nALLOWED_HOSTS = [\n    \"127.0.0.1\",\n    \"localhost\",\n    \"192.168.0.106\",  # your PC LAN IP\n]\n# Domain for activation link\nDOMAIN = \"192.168.0.106:8000\"\n# Application definition",
+        "peekOfCode": "DEBUG = False\n# Allowed hosts\nALLOWED_HOSTS = [\n    \"127.0.0.1\",\n    \"localhost\",\n    \"192.168.0.106\", # your PC LAN IP\n    \"united-valeria-hackerrole2-37ed1cea.koyeb.app\"\n    \"https://united-valeria-hackerrole2-37ed1cea.koyeb.app\"\n]\n# Domain for activation link",
         "detail": "portfolio.portfolio.settings",
         "documentation": {}
     },
@@ -1090,7 +1098,7 @@
         "kind": 5,
         "importPath": "portfolio.portfolio.settings",
         "description": "portfolio.portfolio.settings",
-        "peekOfCode": "ALLOWED_HOSTS = [\n    \"127.0.0.1\",\n    \"localhost\",\n    \"192.168.0.106\",  # your PC LAN IP\n]\n# Domain for activation link\nDOMAIN = \"192.168.0.106:8000\"\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',",
+        "peekOfCode": "ALLOWED_HOSTS = [\n    \"127.0.0.1\",\n    \"localhost\",\n    \"192.168.0.106\", # your PC LAN IP\n    \"united-valeria-hackerrole2-37ed1cea.koyeb.app\"\n    \"https://united-valeria-hackerrole2-37ed1cea.koyeb.app\"\n]\n# Domain for activation link\nDOMAIN = \"192.168.0.106:8000\"\n# Application definition",
         "detail": "portfolio.portfolio.settings",
         "documentation": {}
     },
@@ -1297,7 +1305,7 @@
         "kind": 5,
         "importPath": "portfolio.portfolio.settings",
         "description": "portfolio.portfolio.settings",
-        "peekOfCode": "EMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'developerritesh84@gmail.com'\nEMAIL_HOST_PASSWORD = 'wpgp bhez qyok sjnn'  # Not your Gmail login password\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom dotenv import load_dotenv\n# Load your custom env file",
+        "peekOfCode": "EMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'developerritesh84@gmail.com'\nEMAIL_HOST_PASSWORD = 'wpgp bhez qyok sjnn'  # Not your Gmail login password\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom dotenv import load_dotenv\nfrom django.core.wsgi import get_wsgi_application",
         "detail": "portfolio.portfolio.settings",
         "documentation": {}
     },
@@ -1306,7 +1314,7 @@
         "kind": 5,
         "importPath": "portfolio.portfolio.settings",
         "description": "portfolio.portfolio.settings",
-        "peekOfCode": "EMAIL_HOST_USER = 'developerritesh84@gmail.com'\nEMAIL_HOST_PASSWORD = 'wpgp bhez qyok sjnn'  # Not your Gmail login password\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom dotenv import load_dotenv\n# Load your custom env file\nload_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), \"../chat.env\"))",
+        "peekOfCode": "EMAIL_HOST_USER = 'developerritesh84@gmail.com'\nEMAIL_HOST_PASSWORD = 'wpgp bhez qyok sjnn'  # Not your Gmail login password\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom dotenv import load_dotenv\nfrom django.core.wsgi import get_wsgi_application\nos.environ.setdefault('DJANGO_SETTINGS_MODULE', 'portfolio.settings')",
         "detail": "portfolio.portfolio.settings",
         "documentation": {}
     },
@@ -1315,7 +1323,7 @@
         "kind": 5,
         "importPath": "portfolio.portfolio.settings",
         "description": "portfolio.portfolio.settings",
-        "peekOfCode": "EMAIL_HOST_PASSWORD = 'wpgp bhez qyok sjnn'  # Not your Gmail login password\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom dotenv import load_dotenv\n# Load your custom env file\nload_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), \"../chat.env\"))\n# Access the API key",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = 'wpgp bhez qyok sjnn'  # Not your Gmail login password\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom dotenv import load_dotenv\nfrom django.core.wsgi import get_wsgi_application\nos.environ.setdefault('DJANGO_SETTINGS_MODULE', 'portfolio.settings')\napplication = get_wsgi_application()",
         "detail": "portfolio.portfolio.settings",
         "documentation": {}
     },
@@ -1324,7 +1332,7 @@
         "kind": 5,
         "importPath": "portfolio.portfolio.settings",
         "description": "portfolio.portfolio.settings",
-        "peekOfCode": "DEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom dotenv import load_dotenv\n# Load your custom env file\nload_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), \"../chat.env\"))\n# Access the API key\nOPENAI_API_KEY = os.getenv(\"OPENAI_API_KEY\")",
+        "peekOfCode": "DEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom dotenv import load_dotenv\nfrom django.core.wsgi import get_wsgi_application\nos.environ.setdefault('DJANGO_SETTINGS_MODULE', 'portfolio.settings')\napplication = get_wsgi_application()\n# Load your custom env file",
         "detail": "portfolio.portfolio.settings",
         "documentation": {}
     },
@@ -1333,7 +1341,16 @@
         "kind": 5,
         "importPath": "portfolio.portfolio.settings",
         "description": "portfolio.portfolio.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom dotenv import load_dotenv\n# Load your custom env file\nload_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), \"../chat.env\"))\n# Access the API key\nOPENAI_API_KEY = os.getenv(\"OPENAI_API_KEY\")\n# Optional: check it\nprint(\"OpenAI Key loaded:\", OPENAI_API_KEY)",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom dotenv import load_dotenv\nfrom django.core.wsgi import get_wsgi_application\nos.environ.setdefault('DJANGO_SETTINGS_MODULE', 'portfolio.settings')\napplication = get_wsgi_application()\n# Load your custom env file\nload_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), \"../chat.env\"))\n# Access the API key\nOPENAI_API_KEY = os.getenv(\"OPENAI_API_KEY\")",
+        "detail": "portfolio.portfolio.settings",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "portfolio.portfolio.settings",
+        "description": "portfolio.portfolio.settings",
+        "peekOfCode": "application = get_wsgi_application()\n# Load your custom env file\nload_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), \"../chat.env\"))\n# Access the API key\nOPENAI_API_KEY = os.getenv(\"OPENAI_API_KEY\")\n# Optional: check it\nprint(\"OpenAI Key loaded:\", OPENAI_API_KEY)",
         "detail": "portfolio.portfolio.settings",
         "documentation": {}
     },
