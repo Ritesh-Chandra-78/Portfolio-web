@@ -31,7 +31,8 @@ ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost",
     "192.168.0.106", # your PC LAN IP
-    "https://ritesh-chandra-portfolio.onrender.com/"
+    "https://production-asia-southeast1-eqsg3a.railway-registry.com"
+    "production-asia-southeast1-eqsg3a.railway-registry.com"
 ]
 
 # Domain for activation link
