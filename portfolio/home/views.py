@@ -24,6 +24,14 @@ from django.core.mail import send_mail
 from .forms import ContactForm
 
 
+from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
+from django.conf import settings
+import json
+from google import genai 
+from google.genai.errors import APIError as GeminiAPIError 
+
+
 # Create your views here.
 class HomeView(TemplateView):
     template_name = "home.html"
@@ -62,7 +70,7 @@ class HomeView(TemplateView):
             success = True
             form = ContactForm()  # reset form
 
-            # ✅ send email here
+            #send email here
             subject = "Thanks for contacting me"
             message = (
                 f"Hi {contact.name},\n\n"
@@ -75,7 +83,7 @@ class HomeView(TemplateView):
                 subject,
                 message,
                 settings.DEFAULT_FROM_EMAIL,
-                [contact.email, settings.DEFAULT_FROM_EMAIL],  # send to user + you
+                [contact.email, settings.DEFAULT_FROM_EMAIL], 
                 fail_silently=False,
             )
 
@@ -93,7 +101,7 @@ def register_view(request):
             user = form.save(commit=False)
             password = form.cleaned_data.get('password')
             user.set_password(password)
-            user.is_active = False  # deactivate until email verification
+            user.is_active = False 
             user.save()
 
             # Send activation email
@@ -130,7 +138,7 @@ def activate_view(request, uidb64, token):
     if user and account_activation_token.check_token(user, token):
         if not user.is_active:
             user.is_active = True
-            user.is_staff = True  # give staff access automatically
+            user.is_staff = True 
             user.save()
             messages.success(request, "Your account has been activated. You can now login.")
         else:
@@ -155,41 +163,54 @@ def login_view(request):
     return render(request, 'login.html', {'form': form})
 
 
-# ✅ Logout View
+# Logout View
 def logout_view(request):
     logout(request)
     messages.success(request, "Logged out successfully!")
     return redirect('login')
 
 
-# views.py
-import openai
-from django.conf import settings
-from django.http import JsonResponse
-import json
+# for chatbot integration
+client = genai.Client(api_key=settings.GEMINI_API_KEY)
 
-# Set OpenAI API key
-openai.api_key = settings.OPENAI_API_KEY
-
+@csrf_exempt
 def chatbot_reply(request):
-    if request.method == "POST":
-        data = json.loads(request.body)
-        msg = data.get("message", "")
-
+    if request.method == 'POST':
         try:
-            response = openai.chat.completions.create(
-                model="gpt-3.5-turbo",
-                messages=[
-                    {"role": "system", "content": "You are a helpful chatbot."},
-                    {"role": "user", "content": msg}
-                ]
+            data = json.loads(request.body)
+            user_message = data.get('message', '')
+            
+            if not user_message:
+                return JsonResponse({'reply': 'Please enter a message.'}, status=400)
+
+            system_instruction = (
+                "You are Rito, a helpful and friendly assistant for Ritesh Chandra's portfolio website. "
+                "You must answer questions about Ritesh's skills (Python, Django, JavaScript, APIs) and general knowledge questions."
             )
-            reply = response.choices[0].message.content.strip()
+            
+        
+            response = client.models.generate_content(
+                model='gemini-2.5-flash',
+                contents=[user_message],
+                config=genai.types.GenerateContentConfig(
+                    system_instruction=system_instruction
+                )
+            )
+            
+            bot_response = response.text
+            
+            return JsonResponse({'reply': bot_response})
+            
+        except GeminiAPIError as e:
+            print(f"Gemini API Error: {e}")
+            user_facing_message = (
+                "🤖 AI Service Error: I'm sorry, Rito's AI service is temporarily unavailable. "
+                "The error suggests a **quota or configuration issue** with the backend."
+            )
+            return JsonResponse({'reply': user_facing_message}, status=503) 
+            
         except Exception as e:
-            reply = f"⚠️ Error: {str(e)}"
-
-        return JsonResponse({"reply": reply})
-
-    return JsonResponse({"reply": "Invalid request."}, status=400)
-
-
+            print(f"Internal Error: {e}")
+            return JsonResponse({'reply': 'An internal server error occurred.'}, status=500)
+    
+    return JsonResponse({'reply': 'Error: Method not allowed.'}, status=405)

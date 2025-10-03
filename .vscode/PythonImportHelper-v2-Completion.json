@@ -626,20 +626,19 @@
         "documentation": {}
     },
     {
-        "label": "openai",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "openai",
-        "description": "openai",
-        "detail": "openai",
-        "documentation": {}
-    },
-    {
         "label": "JsonResponse",
         "importPath": "django.http",
         "description": "django.http",
         "isExtraImport": true,
         "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "csrf_exempt",
+        "importPath": "django.views.decorators.csrf",
+        "description": "django.views.decorators.csrf",
+        "isExtraImport": true,
+        "detail": "django.views.decorators.csrf",
         "documentation": {}
     },
     {
@@ -649,6 +648,22 @@
         "importPath": "json",
         "description": "json",
         "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "genai",
+        "importPath": "google",
+        "description": "google",
+        "isExtraImport": true,
+        "detail": "google",
+        "documentation": {}
+    },
+    {
+        "label": "APIError",
+        "importPath": "google.genai.errors",
+        "description": "google.genai.errors",
+        "isExtraImport": true,
+        "detail": "google.genai.errors",
         "documentation": {}
     },
     {
@@ -677,43 +692,28 @@
         "documentation": {}
     },
     {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
         "isExtraImport": true,
-        "detail": "dotenv",
+        "detail": "pathlib",
         "documentation": {}
     },
     {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
+        "label": "environ",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "dotenv",
+        "importPath": "environ",
+        "description": "environ",
+        "detail": "environ",
         "documentation": {}
     },
     {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
+        "label": "ImproperlyConfigured",
+        "importPath": "django.core.exceptions",
+        "description": "django.core.exceptions",
         "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "get_wsgi_application",
-        "importPath": "django.core.wsgi",
-        "description": "django.core.wsgi",
-        "isExtraImport": true,
-        "detail": "django.core.wsgi",
-        "documentation": {}
-    },
-    {
-        "label": "get_wsgi_application",
-        "importPath": "django.core.wsgi",
-        "description": "django.core.wsgi",
-        "isExtraImport": true,
-        "detail": "django.core.wsgi",
+        "detail": "django.core.exceptions",
         "documentation": {}
     },
     {
@@ -725,12 +725,28 @@
         "documentation": {}
     },
     {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
         "label": "sys",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "sys",
         "description": "sys",
         "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
         "documentation": {}
     },
     {
@@ -1008,7 +1024,7 @@
         "kind": 2,
         "importPath": "portfolio.home.views",
         "description": "portfolio.home.views",
-        "peekOfCode": "def register_view(request):\n    if request.method == 'POST':\n        form = RegisterForm(request.POST)\n        if form.is_valid():\n            user = form.save(commit=False)\n            password = form.cleaned_data.get('password')\n            user.set_password(password)\n            user.is_active = False  # deactivate until email verification\n            user.save()\n            # Send activation email",
+        "peekOfCode": "def register_view(request):\n    if request.method == 'POST':\n        form = RegisterForm(request.POST)\n        if form.is_valid():\n            user = form.save(commit=False)\n            password = form.cleaned_data.get('password')\n            user.set_password(password)\n            user.is_active = False \n            user.save()\n            # Send activation email",
         "detail": "portfolio.home.views",
         "documentation": {}
     },
@@ -1017,7 +1033,7 @@
         "kind": 2,
         "importPath": "portfolio.home.views",
         "description": "portfolio.home.views",
-        "peekOfCode": "def activate_view(request, uidb64, token):\n    try:\n        uid = force_str(urlsafe_base64_decode(uidb64))\n        user = User.objects.get(pk=uid)\n    except Exception:\n        user = None\n    if user and account_activation_token.check_token(user, token):\n        if not user.is_active:\n            user.is_active = True\n            user.is_staff = True  # give staff access automatically",
+        "peekOfCode": "def activate_view(request, uidb64, token):\n    try:\n        uid = force_str(urlsafe_base64_decode(uidb64))\n        user = User.objects.get(pk=uid)\n    except Exception:\n        user = None\n    if user and account_activation_token.check_token(user, token):\n        if not user.is_active:\n            user.is_active = True\n            user.is_staff = True ",
         "detail": "portfolio.home.views",
         "documentation": {}
     },
@@ -1035,7 +1051,7 @@
         "kind": 2,
         "importPath": "portfolio.home.views",
         "description": "portfolio.home.views",
-        "peekOfCode": "def logout_view(request):\n    logout(request)\n    messages.success(request, \"Logged out successfully!\")\n    return redirect('login')\n# views.py\nimport openai\nfrom django.conf import settings\nfrom django.http import JsonResponse\nimport json\n# Set OpenAI API key",
+        "peekOfCode": "def logout_view(request):\n    logout(request)\n    messages.success(request, \"Logged out successfully!\")\n    return redirect('login')\n# for chatbot integration\nclient = genai.Client(api_key=settings.GEMINI_API_KEY)\n@csrf_exempt\ndef chatbot_reply(request):\n    if request.method == 'POST':\n        try:",
         "detail": "portfolio.home.views",
         "documentation": {}
     },
@@ -1044,16 +1060,16 @@
         "kind": 2,
         "importPath": "portfolio.home.views",
         "description": "portfolio.home.views",
-        "peekOfCode": "def chatbot_reply(request):\n    if request.method == \"POST\":\n        data = json.loads(request.body)\n        msg = data.get(\"message\", \"\")\n        try:\n            response = openai.chat.completions.create(\n                model=\"gpt-3.5-turbo\",\n                messages=[\n                    {\"role\": \"system\", \"content\": \"You are a helpful chatbot.\"},\n                    {\"role\": \"user\", \"content\": msg}",
+        "peekOfCode": "def chatbot_reply(request):\n    if request.method == 'POST':\n        try:\n            data = json.loads(request.body)\n            user_message = data.get('message', '')\n            if not user_message:\n                return JsonResponse({'reply': 'Please enter a message.'}, status=400)\n            system_instruction = (\n                \"You are Rito, a helpful and friendly assistant for Ritesh Chandra's portfolio website. \"\n                \"You must answer questions about Ritesh's skills (Python, Django, JavaScript, APIs) and general knowledge questions.\"",
         "detail": "portfolio.home.views",
         "documentation": {}
     },
     {
-        "label": "openai.api_key",
+        "label": "client",
         "kind": 5,
         "importPath": "portfolio.home.views",
         "description": "portfolio.home.views",
-        "peekOfCode": "openai.api_key = settings.OPENAI_API_KEY\ndef chatbot_reply(request):\n    if request.method == \"POST\":\n        data = json.loads(request.body)\n        msg = data.get(\"message\", \"\")\n        try:\n            response = openai.chat.completions.create(\n                model=\"gpt-3.5-turbo\",\n                messages=[\n                    {\"role\": \"system\", \"content\": \"You are a helpful chatbot.\"},",
+        "peekOfCode": "client = genai.Client(api_key=settings.GEMINI_API_KEY)\n@csrf_exempt\ndef chatbot_reply(request):\n    if request.method == 'POST':\n        try:\n            data = json.loads(request.body)\n            user_message = data.get('message', '')\n            if not user_message:\n                return JsonResponse({'reply': 'Please enter a message.'}, status=400)\n            system_instruction = (",
         "detail": "portfolio.home.views",
         "documentation": {}
     },
@@ -1296,7 +1312,7 @@
         "kind": 5,
         "importPath": "portfolio.portfolio.settings",
         "description": "portfolio.portfolio.settings",
-        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'developerritesh84@gmail.com'\nEMAIL_HOST_PASSWORD = 'wpgp bhez qyok sjnn'  # Not your Gmail login password\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom dotenv import load_dotenv",
+        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'developerritesh84@gmail.com'\nEMAIL_HOST_PASSWORD = 'wpgp bhez qyok sjnn'  # Not your Gmail login password\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom pathlib import Path",
         "detail": "portfolio.portfolio.settings",
         "documentation": {}
     },
@@ -1305,7 +1321,7 @@
         "kind": 5,
         "importPath": "portfolio.portfolio.settings",
         "description": "portfolio.portfolio.settings",
-        "peekOfCode": "EMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'developerritesh84@gmail.com'\nEMAIL_HOST_PASSWORD = 'wpgp bhez qyok sjnn'  # Not your Gmail login password\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom dotenv import load_dotenv\nfrom django.core.wsgi import get_wsgi_application",
+        "peekOfCode": "EMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'developerritesh84@gmail.com'\nEMAIL_HOST_PASSWORD = 'wpgp bhez qyok sjnn'  # Not your Gmail login password\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom pathlib import Path\nimport environ",
         "detail": "portfolio.portfolio.settings",
         "documentation": {}
     },
@@ -1314,7 +1330,7 @@
         "kind": 5,
         "importPath": "portfolio.portfolio.settings",
         "description": "portfolio.portfolio.settings",
-        "peekOfCode": "EMAIL_HOST_USER = 'developerritesh84@gmail.com'\nEMAIL_HOST_PASSWORD = 'wpgp bhez qyok sjnn'  # Not your Gmail login password\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom dotenv import load_dotenv\nfrom django.core.wsgi import get_wsgi_application\nos.environ.setdefault('DJANGO_SETTINGS_MODULE', 'portfolio.settings')",
+        "peekOfCode": "EMAIL_HOST_USER = 'developerritesh84@gmail.com'\nEMAIL_HOST_PASSWORD = 'wpgp bhez qyok sjnn'  # Not your Gmail login password\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom pathlib import Path\nimport environ\nfrom django.core.exceptions import ImproperlyConfigured ",
         "detail": "portfolio.portfolio.settings",
         "documentation": {}
     },
@@ -1323,7 +1339,7 @@
         "kind": 5,
         "importPath": "portfolio.portfolio.settings",
         "description": "portfolio.portfolio.settings",
-        "peekOfCode": "EMAIL_HOST_PASSWORD = 'wpgp bhez qyok sjnn'  # Not your Gmail login password\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom dotenv import load_dotenv\nfrom django.core.wsgi import get_wsgi_application\nos.environ.setdefault('DJANGO_SETTINGS_MODULE', 'portfolio.settings')\napplication = get_wsgi_application()",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = 'wpgp bhez qyok sjnn'  # Not your Gmail login password\nDEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom pathlib import Path\nimport environ\nfrom django.core.exceptions import ImproperlyConfigured \nenv = environ.Env()",
         "detail": "portfolio.portfolio.settings",
         "documentation": {}
     },
@@ -1332,7 +1348,7 @@
         "kind": 5,
         "importPath": "portfolio.portfolio.settings",
         "description": "portfolio.portfolio.settings",
-        "peekOfCode": "DEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom dotenv import load_dotenv\nfrom django.core.wsgi import get_wsgi_application\nos.environ.setdefault('DJANGO_SETTINGS_MODULE', 'portfolio.settings')\napplication = get_wsgi_application()\n# Load your custom env file",
+        "peekOfCode": "DEFAULT_FROM_EMAIL = EMAIL_HOST_USER\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom pathlib import Path\nimport environ\nfrom django.core.exceptions import ImproperlyConfigured \nenv = environ.Env()\nenviron.Env.read_env(os.path.join(BASE_DIR, '.env')) ",
         "detail": "portfolio.portfolio.settings",
         "documentation": {}
     },
@@ -1341,25 +1357,16 @@
         "kind": 5,
         "importPath": "portfolio.portfolio.settings",
         "description": "portfolio.portfolio.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom dotenv import load_dotenv\nfrom django.core.wsgi import get_wsgi_application\nos.environ.setdefault('DJANGO_SETTINGS_MODULE', 'portfolio.settings')\napplication = get_wsgi_application()\n# Load your custom env file\nload_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), \"../chat.env\"))\n# Access the API key\nOPENAI_API_KEY = os.getenv(\"OPENAI_API_KEY\")",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nfrom pathlib import Path\nimport environ\nfrom django.core.exceptions import ImproperlyConfigured \nenv = environ.Env()\nenviron.Env.read_env(os.path.join(BASE_DIR, '.env')) \ntry:\n    GEMINI_API_KEY = env('GEMINI_API_KEY')\nexcept KeyError:",
         "detail": "portfolio.portfolio.settings",
         "documentation": {}
     },
     {
-        "label": "application",
+        "label": "env",
         "kind": 5,
         "importPath": "portfolio.portfolio.settings",
         "description": "portfolio.portfolio.settings",
-        "peekOfCode": "application = get_wsgi_application()\n# Load your custom env file\nload_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), \"../chat.env\"))\n# Access the API key\nOPENAI_API_KEY = os.getenv(\"OPENAI_API_KEY\")\n# Optional: check it\nprint(\"OpenAI Key loaded:\", OPENAI_API_KEY)",
-        "detail": "portfolio.portfolio.settings",
-        "documentation": {}
-    },
-    {
-        "label": "OPENAI_API_KEY",
-        "kind": 5,
-        "importPath": "portfolio.portfolio.settings",
-        "description": "portfolio.portfolio.settings",
-        "peekOfCode": "OPENAI_API_KEY = os.getenv(\"OPENAI_API_KEY\")\n# Optional: check it\nprint(\"OpenAI Key loaded:\", OPENAI_API_KEY)",
+        "peekOfCode": "env = environ.Env()\nenviron.Env.read_env(os.path.join(BASE_DIR, '.env')) \ntry:\n    GEMINI_API_KEY = env('GEMINI_API_KEY')\nexcept KeyError:\n    raise ImproperlyConfigured(\"The GEMINI_API_KEY must be set in your .env file.\")",
         "detail": "portfolio.portfolio.settings",
         "documentation": {}
     },
@@ -1377,7 +1384,7 @@
         "kind": 5,
         "importPath": "portfolio.portfolio.wsgi",
         "description": "portfolio.portfolio.wsgi",
-        "peekOfCode": "application = get_wsgi_application()\nfrom dotenv import load_dotenv\nload_dotenv()",
+        "peekOfCode": "application = get_wsgi_application()",
         "detail": "portfolio.portfolio.wsgi",
         "documentation": {}
     },

@@ -159,19 +159,18 @@ DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
 import os
-from dotenv import load_dotenv
-from django.core.wsgi import get_wsgi_application
+from pathlib import Path
+import environ
+from django.core.exceptions import ImproperlyConfigured 
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'portfolio.settings')
-application = get_wsgi_application()
 
-# Load your custom env file
-load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), "../chat.env"))
+env = environ.Env()
+environ.Env.read_env(os.path.join(BASE_DIR, '.env')) 
 
-# Access the API key
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+try:
+    GEMINI_API_KEY = env('GEMINI_API_KEY')
+except KeyError:
+    raise ImproperlyConfigured("The GEMINI_API_KEY must be set in your .env file.")
 
-# Optional: check it
-print("OpenAI Key loaded:", OPENAI_API_KEY)
+
