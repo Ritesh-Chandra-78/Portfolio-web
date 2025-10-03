@@ -1096,7 +1096,7 @@
         "kind": 5,
         "importPath": "portfolio.portfolio.settings",
         "description": "portfolio.portfolio.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-vztyzzxvxw1dkcy5e+eq7!8ja2x)@@(q&#lovn@r-m#bqqsfsw'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\n# Allowed hosts\nALLOWED_HOSTS = [\n    \"127.0.0.1\",\n    \"localhost\",\n    \"192.168.0.106\", # your PC LAN IP\n    \"united-valeria-hackerrole2-37ed1cea.koyeb.app\"\n    \"https://united-valeria-hackerrole2-37ed1cea.koyeb.app\"",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-vztyzzxvxw1dkcy5e+eq7!8ja2x)@@(q&#lovn@r-m#bqqsfsw'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\n# Allowed hosts\nALLOWED_HOSTS = [\n    \"127.0.0.1\",\n    \"localhost\",\n    \"192.168.0.106\", # your PC LAN IP\n    \"https://production-asia-southeast1-eqsg3a.railway-registry.com\"\n    \"production-asia-southeast1-eqsg3a.railway-registry.com\"",
         "detail": "portfolio.portfolio.settings",
         "documentation": {}
     },
@@ -1105,7 +1105,7 @@
         "kind": 5,
         "importPath": "portfolio.portfolio.settings",
         "description": "portfolio.portfolio.settings",
-        "peekOfCode": "DEBUG = False\n# Allowed hosts\nALLOWED_HOSTS = [\n    \"127.0.0.1\",\n    \"localhost\",\n    \"192.168.0.106\", # your PC LAN IP\n    \"united-valeria-hackerrole2-37ed1cea.koyeb.app\"\n    \"https://united-valeria-hackerrole2-37ed1cea.koyeb.app\"\n]\n# Domain for activation link",
+        "peekOfCode": "DEBUG = False\n# Allowed hosts\nALLOWED_HOSTS = [\n    \"127.0.0.1\",\n    \"localhost\",\n    \"192.168.0.106\", # your PC LAN IP\n    \"https://production-asia-southeast1-eqsg3a.railway-registry.com\"\n    \"production-asia-southeast1-eqsg3a.railway-registry.com\"\n]\n# Domain for activation link",
         "detail": "portfolio.portfolio.settings",
         "documentation": {}
     },
@@ -1114,7 +1114,7 @@
         "kind": 5,
         "importPath": "portfolio.portfolio.settings",
         "description": "portfolio.portfolio.settings",
-        "peekOfCode": "ALLOWED_HOSTS = [\n    \"127.0.0.1\",\n    \"localhost\",\n    \"192.168.0.106\", # your PC LAN IP\n    \"united-valeria-hackerrole2-37ed1cea.koyeb.app\"\n    \"https://united-valeria-hackerrole2-37ed1cea.koyeb.app\"\n]\n# Domain for activation link\nDOMAIN = \"192.168.0.106:8000\"\n# Application definition",
+        "peekOfCode": "ALLOWED_HOSTS = [\n    \"127.0.0.1\",\n    \"localhost\",\n    \"192.168.0.106\", # your PC LAN IP\n    \"https://production-asia-southeast1-eqsg3a.railway-registry.com\"\n    \"production-asia-southeast1-eqsg3a.railway-registry.com\"\n]\n# Domain for activation link\nDOMAIN = \"192.168.0.106:8000\"\n# Application definition",
         "detail": "portfolio.portfolio.settings",
         "documentation": {}
     },
