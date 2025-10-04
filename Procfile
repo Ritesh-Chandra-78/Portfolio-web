@@ -1,3 +1,4 @@
-web: gunicorn portfolio.wsgi --chdir portfolio
+web: gunicorn portfolio.wsgi:application --chdir portfolio
+
 
 
