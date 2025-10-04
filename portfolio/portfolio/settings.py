@@ -29,10 +29,8 @@ DEBUG = False
 # Allowed hosts
 ALLOWED_HOSTS = [
     "127.0.0.1",
-    "localhost",
-    "192.168.0.106", # your PC LAN IP
-    "https://production-asia-southeast1-eqsg3a.railway-registry.com"
-    "production-asia-southeast1-eqsg3a.railway-registry.com"
+    "https://web-production-a7967.up.railway.app/",
+    "web-production-a7967.up.railway.app",
 ]
 
 # Domain for activation link
