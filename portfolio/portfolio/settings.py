@@ -29,8 +29,8 @@ DEBUG = False
 # Allowed hosts
 ALLOWED_HOSTS = [
     "127.0.0.1",
-    "https://web-production-a7967.up.railway.app/",
-    "web-production-a7967.up.railway.app",
+    "https://ritesh-chandra-portfolio.up.railway.app/",
+    "ritesh-chandra-portfolio.up.railway.app/",
 ]
 
 # Domain for activation link
@@ -57,6 +57,7 @@ SITE_ID = 1
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -133,6 +134,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 import os
+
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]
 
