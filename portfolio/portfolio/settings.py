@@ -29,8 +29,9 @@ DEBUG = False
 # Allowed hosts
 ALLOWED_HOSTS = [
     "127.0.0.1",
-    "https://ritesh-chandra-portfolio.up.railway.app/",
-    "ritesh-chandra-portfolio.up.railway.app/",
+    "*",
+    "ritesh-chandra-portfolio.up.railway.app",
+    "https://ritesh-chandra-portfolio.up.railway.app",
 ]
 
 # Domain for activation link
