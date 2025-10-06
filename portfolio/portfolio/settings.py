@@ -62,7 +62,7 @@ INSTALLED_APPS = [
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': 'ritesh-portfolio',
+    'CLOUD_NAME': 'dzygh3rlr',
     'API_KEY': '752585762575852',
     'API_SECRET': 'lamp5ReNmen0Tx-dBenzOV56Wt4',
 }
