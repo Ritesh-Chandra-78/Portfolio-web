@@ -31,9 +31,11 @@ ALLOWED_HOSTS = [
     "127.0.0.1",
     "*",
     "ritesh-chandra-portfolio.up.railway.app",
+]
+# ✅ CSRF trusted origins (very important)
+CSRF_TRUSTED_ORIGINS = [
     "https://ritesh-chandra-portfolio.up.railway.app",
 ]
-
 # Domain for activation link
 DOMAIN = "192.168.0.106:8000"
 # Application definition
