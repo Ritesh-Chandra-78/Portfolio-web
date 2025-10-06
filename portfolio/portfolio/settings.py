@@ -54,7 +54,18 @@ INSTALLED_APPS = [
     'educations',
     "widget_tweaks",
     "django.contrib.sites",
+    "cloudinary",
+    "cloudinary_storage",
 ]
+
+
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'ritesh-portfolio',
+    'API_KEY': '752585762575852',
+    'API_SECRET': 'lamp5ReNmen0Tx-dBenzOV56Wt4',
+}
 
 SITE_ID = 1
 
