@@ -36,7 +36,7 @@
     <p class="mb-4">You can view or download my resume below:</p>
     
     {% if resume %}
-    <a href="{{ resume.file.url }}" target="_blank" class="btn btn-primary px-4 py-2">
+    <a href="{% static 'images/assets/Ritesh_Resume.pdf' %}" target="_blank" class="btn btn-primary px-4 py-2">
       View Resume
     </a>
     {% else %}
